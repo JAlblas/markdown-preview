@@ -6,6 +6,7 @@ class MarkdownPreview extends Component {
   render() {
     return (
       <div className="markdownPreview">
+        <p>{this.props.translated}</p>
       </div>
     );
   }
